@@ -34,11 +34,6 @@ data class Step(
     val highlight: Boolean = false)
 
 private val data = listOf(
-    Step("Step 9",
-        "Animations with Motion Layout",
-        "Practicing",
-        Step9Activity::class
-    ),
     Step("Step 1",
         "Animations with Motion Layout",
         "Learn how to build a basic animation with Motion Layout. This will crash until you complete the step in the codelab.",
@@ -90,6 +85,11 @@ private val data = listOf(
         "Changes applied from step 8",
         Step8CompletedActivity::class,
         highlight = true
+    ),
+    Step("Step 9",
+        "Animations with Motion Layout",
+        "Practicing",
+        Step9Activity::class
     )
 )
 
