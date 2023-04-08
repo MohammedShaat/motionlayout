@@ -6,7 +6,9 @@
         app:constraintSetStart="@id/start"
         app:constraintSetEnd="@id/end"
         app:duration="2000">
-
+        <OnClick
+            app:targetId="@id/blue_star"
+            app:clickAction="toggle"/>
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
